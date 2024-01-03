@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://ds71vl7npop1f"]
+
+[ext_resource type="Texture2D" uid="uid://ch0431a1u34og" path="res://icon.svg" id="1_r7db7"]
+[ext_resource type="Script" path="res://Scripts/Minigame.gd" id="1_syfqn"]
+
+[node name="Minigame" type="Node2D"]
+position = Vector2(400, 300)
+script = ExtResource("1_syfqn")
+
+[node name="Bolt" type="Sprite2D" parent="."]
+position = Vector2(2.08165e-12, 2.08165e-12)
+texture = ExtResource("1_r7db7")
+
+[node name="Wrench" type="Sprite2D" parent="Bolt"]
+position = Vector2(165, 2.08165e-12)
+scale = Vector2(1.625, 0.3125)
+texture = ExtResource("1_r7db7")
